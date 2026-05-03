@@ -1,0 +1,145 @@
+{
+  "company_domain": "@EXAMPLE.COM",
+  "license": {
+    "adobe": {
+      "ORG_ID": "ORG_ID@AdobeOrg",
+      "PRODUCT_TO_LICENSE_ID": {
+        "Illustrator - Edition 4": 89,
+        "InDesign - Edition 4": 90,
+        "Photoshop - Edition 4": 92,
+        "Acrobat Pro": 9,
+        "Adobe Express for Enterprise": 88,
+        "Lightroom - Edition 4": 91,
+        "N/A": 286
+      }
+    },
+    "autodesk": {
+      "PRODUCT_TO_LICENSE_ID": {
+        "AutoCAD LT": 14,
+        "AutoCAD - including specialized toolsets": 193,
+        "Navisworks Simulate": 229,
+        "N/A": 285
+      }
+    },
+    "bluebeam": {
+      "ORG_ID": "ORG_ID",
+      "PRODUCT_TO_LICENSE_ID": {
+        "Core": 4,
+        "Complete": 3,
+        "Unpaid": 284
+      }
+    },
+    "pdf-xchange": {
+      "PRODUCT_TO_LICENSE_ID": {
+        "PDF-XChange Editor": 222,
+        "PDF-XChange Editor Plus": 223
+      }
+    },
+    "datto": {
+      "API_URL": "https://zinfandel-api.centrastage.net",
+      "LICENSE_ID": 274
+    },
+    "discovered-apps": {
+      "PRODUCT_TO_LICENSE_ID": {
+        "eDrawings": 208,
+        "SOLIDWORKS eDrawings 2022 SP05": 208,
+        "*Autodesk Navisworks Freedom": 53,
+        "Arrow 11": 273,
+        "AFT Arrow 10": 244,
+        "AFT Arrow 10 Viewer": 244,
+        "AFT Arrow 9": 7,
+        "FileOpen Client B1010": 28,
+        "FileOpen Client B998": 28,
+        "Google Earth Pro": 117,
+        "*Greenshot": 30,
+        "*H2FillS": 73,
+        "HyRAM+": 210,
+        "HyRAM": 210,
+        "Inkscape": 121,
+        "*Logitech Unifying Software": 201,
+        "*MINI-REFPROP": 74,
+        "REFPROP": 220,
+        "Notepad++ (64-bit x64)": 78,
+        "*Postman": 142,
+        "*QGIS": 145,
+        "*QuickBooks Enterprise": 242,
+        "*RealVNC Viewer": 57,
+        "*ERTune": 69,
+        "Microsoft Visual Studio Code (User)": 167,
+        "SkyCAD Electrical": 202,
+        "CutePDF Writer": 243,
+        "TightVNC": 69,
+        "*Cscape": 245,
+        "*DIALux evo": 246,
+        "*FactoryTalk Linx": 149,
+        "*HART Communication": 209,
+        "*Anaconda3": 247
+      }
+    },
+    "gatemanager": {
+      "API_URL": "https://EXAMPLE.secomea.com/admin",
+      "LICENSE_ID": 227
+    },
+    "microsoft": {
+      "PRODUCT_TO_LICENSE_ID": {
+        "VISIOCLIENT": 174,
+        "FLOW_PER_USER": 189,
+        "POWER_BI_PRO": 186,
+        "SPB": 185,
+        "PBI_PREMIUM_PER_USER": 186,
+        "PROJECT_P1": 48,
+        "SHAREPOINTSTORAGE": 197,
+        "Microsoft_Teams_Premium": 224,
+        "POWER_BI_STANDARD": 225,
+        "ADALLOM_STANDALONE": 196,
+        "POWERAPPS_PER_USER": 188,
+        "MCOMEETADV": 177,
+        "VISIOONLINE_PLAN1": 52,
+        "O365_BUSINESS_ESSENTIALS": 176,
+        "PROJECTPROFESSIONAL": 51,
+        "FLOW_FREE": 228,
+        "Microsoft_Intune_Endpoint_Privilege_Management": 234,
+        "Microsoft_Teams_Phone_with_Calling_Plan_(country_zone_1_UK/Canada)": 235,
+        "Microsoft_365_Copilot": 268,
+        "PURVIEW_SUITE_FOR_BUSINESS_PREMIUM_NEW": 287,
+        "POWERAUTOMATE_ATTENDED_RPA": 290,
+        "AAD_PREMIUM_P2": 288
+      }
+    },
+    "pdm": {
+      "LICENSE_ID": 230
+    },
+    "procore": {
+      "URL": "https://us02.procore.com/COMPANY-ID/company/directory/groups/users?page=1&per_page=150&search=&group_by=vendor.id&sort=vendor_name%2Cname",
+      "LICENSE_ID": 269
+    },
+    "solidprofessor": {
+      "LICENSE_ID": 60
+    },
+    "unifi": {
+      "LICENSE_ID": 164
+    },
+    "wordpress": {
+      "URL": "https://www.EXAMPLE.COM:2083/cpsessCOMPANY-ID/3rdparty/phpMyAdmin/index.php?route=/table/export&db=EXAMPLE_wp2021&table=wp_users&single_table=true",
+      "LICENSE_ID": 170
+    },
+    "knowbe4": {
+      "API_URL": "https://ca.api.knowbe4.com",
+      "LICENSE_ID": 289
+    }
+  },
+  "assets": {
+    "update_monitors": {
+      "ignored_manufacturers": [
+        "HWP", "RKU", "MSI"
+      ],
+      "ignored_SNs": [
+        "1513181518", "1", "12345678"
+      ]
+    }
+  },
+  "custom": {
+    "bulk_update_any_license": {
+    }
+  }
+}

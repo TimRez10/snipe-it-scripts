@@ -1,0 +1,86 @@
+2026-05-03 - Timur Reziapov - Updates README
+2026-05-03 - Timur Reziapov - deletes old adobe api file
+2026-05-03 - Timur Reziapov - adds template file for app_config
+2026-04-20 - Timur Reziapov - Merge branch 'main' of https://github.com/[Redacted]
+2026-04-20 - Timur Reziapov - cleanup and fixes to unifi and bluebeam api scripts
+2026-03-02 - Timur Reziapov - integrates KnowBe4 reporting API for license seat updates
+2026-03-01 - Timur Reziapov - fixes adobe pi script not running
+2026-03-01 - Timur Reziapov - Changes adobe api to mostly use requests instead of selenium. Also consolidates both adobe licensed and unlicensed scripts
+2026-02-28 - Timur Reziapov - visual changes and fixes test that still checks for an old PowerShell version
+2026-02-28 - Timur Reziapov - removed hardcoded organisation IDs
+2026-02-28 - Timur Reziapov - Merge branch 'main' of github-htec:[Redacted]
+2026-02-28 - Timur Reziapov - Modularizes python api runner
+2026-02-28 - Timur Reziapov - Changes microsoft scripts to use API authentication
+2026-02-23 - Timur Reziapov - Adds KnowBe4 script
+2026-02-02 - Timur Reziapov - switches to Powershell 7 instead of 5
+2026-02-02 - Timur Reziapov - Merge branch 'main' of github-htec:[Redacted]
+2026-02-02 - Timur Reziapov - adds additional information when running scripts
+2026-02-02 - Timur Reziapov - Merge branch 'main' of github-htec:[Redacted]
+2026-02-02 - Timur Reziapov - removes hardcoded Bluebeam ID
+2026-01-28 - Timur Reziapov - Updates ITAMS Automation Script to also record active but Unlicensed Accounts for: Abode, Bluebeam, Autodesk
+2025-12-27 - Timur Reziapov - ensured the term [Redacted] isnt hardcoded
+2025-12-23 - Timur Reziapov - plans on redesigning Update Monitor script
+2025-12-22 - Timur Reziapov - adds tests for licenses
+2025-12-21 - Timur Reziapov - adds more tests for users and config
+2025-12-21 - Timur Reziapov - adds some tests for users module
+2025-12-21 - Timur Reziapov - adds testing for config module
+2025-12-21 - Timur Reziapov - Updates README.md
+2025-12-21 - Timur Reziapov - fixes gatemanager api script
+2025-12-21 - Timur Reziapov - gatemanager api dynamically gets url, license logging logs email
+2025-12-21 - Timur Reziapov - adds more documentation to modules
+2025-12-21 - Timur Reziapov - refactors code
+2025-12-19 - Timur Reziapov - for unifi, selenium zooms out before copying
+2025-12-19 - Timur Reziapov - fixes powershell to work on both Windows and Linux
+2025-12-17 - Timur Reziapov - automates Datto script using Datto API
+2025-12-17 - Timur Reziapov - updates README
+2025-12-17 - Timur Reziapov - fixes typo and app config
+2025-12-17 - Timur Reziapov - updates README, reorganizes api scripts
+2025-12-17 - Timur Reziapov - refactors other api scripts to use safe_click() when clicking buttons
+2025-12-17 - Timur Reziapov - modified logging config. Restores web scraping method to the adobe API script, deleting the Adobe Developer API
+2025-12-16 - Timur Reziapov - implements solidprofessor script
+2025-12-16 - Timur Reziapov - cleans up gatemanager scripts
+2025-12-15 - Timur Reziapov - begins creating solidprofessor.py script
+2025-12-15 - Timur Reziapov - fixes microsoft scripts, adds linux support for running pwsh
+2025-12-14 - Timur Reziapov - implements code for Adobe Developer API
+2025-12-13 - Timur Reziapov - further refactoring, automatically updates external user list
+2025-12-12 - Timur Reziapov - refactors code, adds auto update license notes for external users
+2025-11-16 - Timur Reziapov - automates gatemanager
+2025-11-15 - Timur Reziapov - refactors update_itams.py, changes names of script folders
+2025-11-14 - Timur Reziapov - automates bluebeam license updates
+2025-11-12 - Timur Reziapov - custom scripts are runnable through interactive menu
+2025-11-03 - Timur Reziapov - adds pdf-Xchange automation script
+2025-10-26 - Timur Reziapov - testing using python selenium to automatically get info from bluebeam and adobe
+2025-10-26 - Timur Reziapov - automates discovered-apps script
+2025-10-20 - Timur Reziapov - fixes Update Monitor script
+2025-10-06 - Timur Reziapov - fixes datetime module import in bluebeam script
+2025-10-05 - Timur Reziapov - license vendor scripts run as modules instead of seperate processes
+2025-10-04 - Timur Reziapov - adds datto license script and hp warrenty asset script
+2025-09-15 - Timur Reziapov - vaious updates
+2025-09-01 - Timur Reziapov - adds lenovo asset warrenty lookup through web scraping
+2025-08-31 - Timur Reziapov - adds dell warranty update script
+2025-08-15 - Timur Reziapov - adds asset monitor assignments update script
+2025-08-10 - Timur Reziapov - script to clean up notes for licenses
+2025-08-08 - Timur Reziapov - new interactive CLI version
+2025-08-08 - Timur Reziapov - updates
+2025-07-29 - Timur Reziapov - other scripts use the new functions
+2025-07-28 - Timur Reziapov - adds ability to add notes to license seat assignments
+2025-07-28 - Timur Reziapov - adds discovered-apps
+2025-07-25 - Timur Reziapov - simplifies vendor script configuration and logging
+2025-07-25 - Timur Reziapov - improves logging
+2025-07-25 - Timur Reziapov - fixes logging issues
+2025-07-24 - Timur Reziapov - implements logging
+2025-07-24 - Timur Reziapov - prints out users without @[Redacted] email address for some scripts
+2025-07-16 - Timur Reziapov - adds logmein, updates readme, and changes how the scripts are ran
+2025-07-14 - Timur Reziapov - fixes file not found error
+2025-07-13 - Timur Reziapov - [Redacted] - Update README.md
+2025-07-13 - Timur Reziapov - adds cli tool
+2025-07-13 - Timur Reziapov - refactors scripts
+2025-06-23 - Timur Reziapov - adds script for PDM
+2025-06-23 - Timur Reziapov - autodesk, unifi, gatemanager, and wordpress scripts are functional
+2025-06-22 - Timur Reziapov - Plans to add more software
+2025-06-22 - Timur Reziapov - Adds more detail to README
+2025-06-21 - Timur Reziapov - Adds Autodesk script, adds info to README
+2025-06-21 - Timur Reziapov - removes csv files
+2025-06-21 - Timur Reziapov - [Redacted] - Update .gitignore wwith *.csv
+2025-06-21 - Timur Reziapov - Added Update Autodesk Licenses folder with CSVs
+2025-06-21 - Timur Reziapov - Inital commit
